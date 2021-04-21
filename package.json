@@ -1,0 +1,23 @@
+{
+  "name": "example-security",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "audit": "auditjs ossi"
+  },
+  "keywords": [],
+  "author": "Maximiliano de Oliveira Furtado",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^3.21.2",
+    "helmet": "^4.5.0"
+  },
+  "devDependencies": {
+    "auditjs": "^4.0.25",
+    "nodemon": "^2.0.7"
+  }
+}
