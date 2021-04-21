@@ -13,6 +13,8 @@
   "author": "Maximiliano de Oliveira Furtado",
   "license": "ISC",
   "dependencies": {
+    "ajv": "^8.1.0",
+    "body-parser": "^1.19.0",
     "express": "^3.21.2",
     "helmet": "^4.5.0"
   },
